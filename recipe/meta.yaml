@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "cellfinder" %}
-{% set version = "1.4.1" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cellfinder-{{ version }}.tar.gz
-  sha256: 0a28fd6053192f4d2ef8ee0c3dbfa0dc9c26830cc36fe78e1be31d2f97d17bc5
+  sha256: 0f3d0c8c7d09784576dc1e22f1d5a91e8a88dcc04b57d89e6d1fbbaea570ae5e
 
 build:
   noarch: python
