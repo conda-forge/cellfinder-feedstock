@@ -1,4 +1,4 @@
-{% set python_min = "3.10" %}
+{% set python_min = "3.11" %}
 {% set name = "cellfinder" %}
 {% set version = "1.5.1" %}
 
@@ -41,6 +41,7 @@ requirements:
     - pytorch >=2.1.0, !=2.4
     - tifffile
     - tqdm
+    - qt-niu
 
 test:
   imports:
