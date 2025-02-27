@@ -1,6 +1,6 @@
-{% set python_min = "3.10" %}
+{% set python_min = "3.11" %}
 {% set name = "cellfinder" %}
-{% set version = "1.4.1" %}
+{% set version = "1.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cellfinder-{{ version }}.tar.gz
-  sha256: 0a28fd6053192f4d2ef8ee0c3dbfa0dc9c26830cc36fe78e1be31d2f97d17bc5
+  sha256: 3b7a04fb0771bcd178cc6aff864f053f602da8c51bf1771643570848969ff41c
 
 build:
   noarch: python
@@ -41,6 +41,7 @@ requirements:
     - pytorch >=2.1.0, !=2.4
     - tifffile
     - tqdm
+    - qt-niu
 
 test:
   imports:
