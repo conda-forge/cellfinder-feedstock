@@ -32,13 +32,13 @@ requirements:
     - brainglobe-utils >=0.5.0
     - brainglobe-napari-io >=0.3.4
     - dask-core
-    - fancylog >=0.0.7
+    - fancylog >=0.6.0
     - natsort
     - numba
     - scikit-image
     - scikit-learn
     - keras >=3.7.0
-    - pytorch >=2.1.0, !=2.4
+    - pytorch >=2.4.1
     - tifffile
     - tqdm
     - qt-niu
