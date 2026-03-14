@@ -1,6 +1,6 @@
 {% set python_min = "3.11" %}
 {% set name = "cellfinder" %}
-{% set version = "1.8.0" %}
+{% set version = "1.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cellfinder-{{ version }}.tar.gz
-  sha256: ccf911138c4eb8c61e231a7b613f8e0c8e4fd3c78d53012b0be59d2f73d7b0fb
+  sha256: 0c57060ad439e6cb983cad3716e0802523c3bf1cc515e15ddbcc75416774635a
 
 build:
   noarch: python
@@ -32,13 +32,13 @@ requirements:
     - brainglobe-utils >=0.5.0
     - brainglobe-napari-io >=0.3.4
     - dask-core
-    - fancylog >=0.0.7
+    - fancylog >=0.6.0
     - natsort
     - numba
     - scikit-image
     - scikit-learn
     - keras >=3.7.0
-    - pytorch >=2.1.0, !=2.4
+    - pytorch >=2.4.1
     - tifffile
     - tqdm
     - qt-niu
