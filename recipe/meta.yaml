@@ -42,7 +42,8 @@ requirements:
     - tifffile
     - tqdm
     - qt-niu
-
+    - monai
+    - napari-ndtiffs
 test:
   imports:
     - cellfinder
